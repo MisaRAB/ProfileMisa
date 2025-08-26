@@ -1,0 +1,95 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="388" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="numpy" />
+            <item index="1" class="java.lang.String" itemvalue="scikit-learn" />
+            <item index="2" class="java.lang.String" itemvalue="configuration" />
+            <item index="3" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="4" class="java.lang.String" itemvalue="holidays" />
+            <item index="5" class="java.lang.String" itemvalue="tensorboard" />
+            <item index="6" class="java.lang.String" itemvalue="distributed" />
+            <item index="7" class="java.lang.String" itemvalue="dask" />
+            <item index="8" class="java.lang.String" itemvalue="click" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E402" />
+          <option value="E303" />
+          <option value="W292" />
+          <option value="E712" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingNamesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="create_feature" />
+          <option value="process_data" />
+          <option value="Q1_Q3.F5.configuration" />
+          <option value="Q1_Q3.F5.*" />
+          <option value="model_to_use" />
+          <option value="Q1_Q3.F6.*" />
+          <option value="Q1_Q3.F7.configuration" />
+          <option value="Q1_Q3.F7.col_X_Q3_A" />
+          <option value="Q1_Q3.F7.y_to_predict_Q3" />
+          <option value="Q1_Q3.F10.configuration" />
+          <option value="Q1_Q3.F10.lags" />
+          <option value="Q1_Q3.F10.y_to_predict_Q1" />
+          <option value="Q1_Q3.F10.col_X_Q1" />
+          <option value="Q1_Q3.F10.comb" />
+          <option value="Q1_Q3.F10.cv" />
+          <option value="Q1_Q3.F11.configuration" />
+          <option value="Q1_Q3.F11.col_X_Q3_B" />
+          <option value="Q1_Q3.F11.y_to_predict_Q3" />
+          <option value="Q1_Q3.F12.configuration" />
+          <option value="Q1_Q3.F12.one_month" />
+          <option value="Q1_Q3.F12.three_month" />
+          <option value="Q1_Q3.F12.six_month" />
+          <option value="Q1_Q3.F12.minimum_minute_allowed_between_session" />
+          <option value="Q1_Q3.F12.range_session_length_minute" />
+          <option value="Q1_Q3.F12.range_active_hours" />
+          <option value="Q1_Q3.F12.range_total_energy" />
+          <option value="Q1_Q3.F12.range_prev_journey_length_hour" />
+          <option value="Q1_Q3.F12.range_next_journey_length_hour" />
+          <option value="Q1_Q3.F12.ignore_if_data_less_than_for_train" />
+          <option value="Q1_Q3.F13.configuration" />
+          <option value="Q1_Q3.F13.feature_name_after_scaling" />
+          <option value="Q1_Q3.F13.kmeans_kwargs" />
+          <option value="Q1_Q3.F13.feature_to_scale" />
+          <option value="Q1_Q3.F14.configuration" />
+          <option value="Q1_Q3.F14.clust_names" />
+          <option value="Q1_Q3.F16.configuration" />
+          <option value="Q1_Q3.F11.col_X_Q3_I" />
+          <option value="Q1_Q3.F13.col_X_Q2" />
+          <option value="Q1_Q3.F13.y_to_predict_Q2" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
